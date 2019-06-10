@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "menu";
+    src: url("../fonts/CODE-Bold.ttf");
+  }
+  @import "cadastros.css";
+
+
+
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: #222;
+
+}
+.main{
+    width: 100%;
+    background-attachment: scroll;
+
+}
+
+.main > .content{
+    /*border: aqua 1px dashed;*/
+    margin-left: 40%;
+    color: #FDCA54;
+    display: inline-block;
+    text-align: left;
+    font-family: menu;
+    font-size: 20px;
+}
+
+.main > .content  a{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FDCA54;
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.main > .content > #voltar{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FDCA54;
+    font-size: 20px;
+    padding-top: 20px;
+    display: block;
+}
+
+.main > .content p{
+    text-decoration: none;
+    color: #FDCA54;
+    font-size: 20px;
+}
+
+.main > .content > .logo{
+    display: block;
+    padding-bottom: 30px;
+}
+
+
+.main > .content > .formu{
+    padding-top: 10%;
+    text-align: left;
+
+    
+    /*border: 2px red solid; */
+}
+
+.main > .content > .formu label{
+    border: 2px;
+
+}
+    input[type=text]{
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+}
+
+footer{
+    color: #f1f1f1;
+    display: block;
+    font-size: 12px;
+    font-stretch: 100%;
+    font-weight: 700;
+    height: 16px;
+    line-height: 16.8px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
